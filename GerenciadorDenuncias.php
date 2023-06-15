@@ -7,17 +7,13 @@ $objSMSHandler = new SMSHandler();
 final class GerenciadorDenuncias
 {
 
-    public function registrarDenuncia($objDenuncia)
+    public function registrarDenuncia(Denuncia $objDenuncia)
     {
 
     }
 }
 
 $gerenciadorDenuncias = new GerenciadorDenuncias();
-$obj = [
-    $objEmailHandler->$objEmailHandler,
-    $objSMSHandler->$objSMSHandler,
-];
 
 $gerenciadorDenuncias->registrarDenuncia($obj);
 
